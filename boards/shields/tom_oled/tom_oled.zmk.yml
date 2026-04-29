@@ -1,0 +1,7 @@
+file_format: "1"
+id: tom_oled
+name: zmk-tom-oled
+type: shield
+url: https://github.com/pukuhei/zmk-tom-oled
+requires:
+  - pro_micro_i2c

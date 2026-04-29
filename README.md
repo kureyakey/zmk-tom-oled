@@ -72,3 +72,9 @@ CONFIG_ZMK_TOM_OLED_MAC_MODIFIERS=y
 endpoint、layer、central 側 split battery 情報を同じようには持てないため、
 接続状態、キー入力、トラックボール入力のような peripheral 側で取得できる情報に
 絞った別 widget として実装しています。
+
+## References
+
+central 側の表示は、Maximilian Engl さんの
+[`zmk-dongle-display`](https://github.com/englmaxi/zmk-dongle-display)
+を参考にしています。
